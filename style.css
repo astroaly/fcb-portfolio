@@ -1,0 +1,45 @@
+CSS Selectors*/
+/*Selects specific element in html that can be customized (Custom styling*/
+*{
+	font-family: "Montserrat", sans-serif;
+}
+
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+/*From SVGbackgrounds*/
+body {
+background-color: #EEEEBB;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23EEEEBB' width='11' height='11'/%3E%3Crect fill='%23eeeeba' x='10' width='11' height='11'/%3E%3Crect fill='%23eeeeb9' y='10' width='11' height='11'/%3E%3Crect fill='%23eeedb8' x='20' width='11' height='11'/%3E%3Crect fill='%23eeedb7' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23eeedb6' y='20' width='11' height='11'/%3E%3Crect fill='%23eeedb5' x='30' width='11' height='11'/%3E%3Crect fill='%23eeecb4' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23edecb3' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23edecb1' y='30' width='11' height='11'/%3E%3Crect fill='%23edecb0' x='40' width='11' height='11'/%3E%3Crect fill='%23edebaf' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23edebae' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23edebad' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23edebac' y='40' width='11' height='11'/%3E%3Crect fill='%23edeaab' x='50' width='11' height='11'/%3E%3Crect fill='%23edeaaa' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23edeaa9' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23edeaa8' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23ede9a7' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23ede9a6' y='50' width='11' height='11'/%3E%3Crect fill='%23ede9a5' x='60' width='11' height='11'/%3E%3Crect fill='%23ede9a4' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23ede8a2' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23ede8a1' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23ede8a0' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23ede79f' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23ede79e' x='70' width='11' height='11'/%3E%3Crect fill='%23ede79d' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23ede79c' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23ede69b' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23ede69a' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23ede699' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23ede698' x='80' width='11' height='11'/%3E%3Crect fill='%23ede597' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23ede596' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23ede594' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23ede493' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23ede492' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23ede491' x='90' width='11' height='11'/%3E%3Crect fill='%23ede490' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23ede38f' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23ede38e' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23ede38d' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23ede28c' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23ede28b' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23ede289' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23ede288' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23ede187' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23ede186' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23ede185' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23ede084' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23eee083' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23eee082' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23eee081' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23eedf7f' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23eedf7e' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23eedf7d' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23eede7c' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEDE7B' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+#landing {
+	height: 80vh
+	/*vertical alignment*/
+	display: flex;
+	flex-direction: column;
+
+/*nawala ako huhu*/
+
+}
+/*Bootstrap is used to modify the design (align)*/
+
+
+
+/*(.) for class, (#) for id*/
+/*class can be repetitive. id should be a unique identifier*/
+/*Asterisk symbol (*) Selects the element*/
+/*font-family means all fonts in the web
+
+/*t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+blank - for classes that set a margin or padding on */
